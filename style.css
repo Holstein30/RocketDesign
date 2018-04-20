@@ -106,4 +106,49 @@ nav ul li a:hover {
   color: #c3d7df;
 }
 
-/* End Nav */
+/* Banner */
+
+.banner {
+  width: 100%;
+  background-color: #6991ac;
+}
+
+.banner-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Four Column Section */
+
+.one-fourth {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+#html {
+  background-color: #f1aa90;
+}
+
+#css {
+  background-color: #beb9ad;
+}
+
+#seo {
+  background-color: #aadcd2;
+}
+
+#social {
+  background-color: #a2b2c1;
+}
+
+.one-fourth i {
+  color: #f0f0f0;
+  font-size: 500%;
+  padding: 13% 0 4% 0;
+}
+
+/* Main Two Column Sections */
+
+.inner-wrapper {
+}
