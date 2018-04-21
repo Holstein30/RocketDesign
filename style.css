@@ -20,6 +20,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding-top: 2%;
+  color: #f5f5f5;
 }
 
 h3 {
@@ -27,9 +28,12 @@ h3 {
   line-height: 155%;
   padding: 5% 0;
   font-weight: 400;
+  color: #f5f5f5;
 }
 
 p {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #f5f5f5;
   font-size: 160%;
   line-height: 150%;
   padding: 3%;
@@ -151,4 +155,49 @@ nav ul li a:hover {
 /* Main Two Column Sections */
 
 .inner-wrapper {
+  background-color: #c3d7df;
+  float: left;
+  width: 100%;
+}
+
+article {
+  float: left;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+#tablet {
+  background-color: #c3d7df;
+}
+
+aside {
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+#tablet2 {
+  background-color: #a2b1c1;
+}
+
+#mobile {
+  background-color: #beb9ad;
+}
+
+#desktop {
+  background-color: #f1aa90;
+}
+
+.inner-wrapper-2 {
+  float: left;
+  width: 100%;
+  background-color: #c3d7df;
+}
+
+/* Three Column Section */
+
+.inner-wrapper-3 {
+  float: left;
 }
