@@ -267,3 +267,92 @@ footer.second p {
   padding: 5px 0 9px 0;
   text-align: center;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  /* Global */
+
+  h2 {
+    font-size: 150%;
+  }
+
+  h3 {
+    font-size: 125%;
+  }
+
+  p {
+    font-size: 120%;
+  }
+
+  /* Nav */
+
+  header {
+    position: absolute;
+  }
+
+  #logo {
+    margin: 15px 0 20px -25px;
+    background: url("img/RD_mobile.png") no-repeat center;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav ul,
+  nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    padding: 20px;
+    background: #6991ac;
+    border: 2px solid #fff;
+    border-radius: 5px 0 5px 5px;
+    width: 50%;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Banner */
+
+  .banner {
+    padding-top: 86px;
+  }
+
+  /* Four Column Section */
+
+  .one-fourth {
+    float: left;
+    width: 100%;
+  }
+
+  .one-fourth i {
+    font-size: 350%;
+    padding: 4% 0 1% 0;
+  }
+
+  /* Main Two Column Section */
+
+  article {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .hand-mobile {
+    display: none;
+  }
+}
