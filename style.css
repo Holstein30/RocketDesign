@@ -200,4 +200,33 @@ aside {
 
 .inner-wrapper-3 {
   float: left;
+  width: 100%;
+  background-color: #aadcd2;
 }
+
+.one-third {
+  width: 33.33333333%;
+  float: left;
+  text-align: center;
+}
+
+#google {
+  background-color: #a2b1c1;
+}
+
+#marketing {
+  background-color: #beb9ad;
+}
+
+#customers {
+  background-color: #aadcd2;
+}
+
+#smiley {
+  background-color: #aadcd2;
+  padding: 0 0 1%;
+  clear: both;
+  text-align: center;
+}
+
+/* Footer */
