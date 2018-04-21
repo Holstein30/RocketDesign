@@ -355,4 +355,16 @@ footer.second p {
   .hand-mobile {
     display: none;
   }
+
+  /* Three Column Section */
+
+  .one-third {
+    width: 100%;
+  }
+
+  /* Footer Social */
+
+  .social i {
+    font-size: 180%;
+  }
 }
